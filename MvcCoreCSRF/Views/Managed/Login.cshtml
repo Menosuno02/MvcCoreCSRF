@@ -1,6 +1,7 @@
 ﻿<h1>Login</h1>
 
 <form method="post">
+    @Html.AntiForgeryToken()
     <label>Usuario</label>
     <input type="text" name="usuario" class="form-control" />
     <label>Password</label>
